@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // return view('welcome');
+    return redirect('test');
+});
+Route::get('/test/{id}', function ($id) {  // route with paramater
+    echo "".$id;
     return view('test');
 });
+route::view('here','test'); //autre form de route
+route::view('/test','test'); //autre form de route
+

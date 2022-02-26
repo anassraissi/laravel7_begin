@@ -82,6 +82,8 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel by anass
+                    <hr>
+                    <a href="test">go to test page</a>
                 </div>
 
                 <div class="links">
